@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    body.bg-image { 
+    background-image: url('https://media.istockphoto.com/id/1773808452/vector/gold-and-silver-confetti-on-red-background.jpg?s=612x612&w=0&k=20&c=4FWgPeY4a4KpnuP4-eNr3qqzlykJWss-k9MNFeHNaTM=');
+    background-size: cover;        
+    background-position: center;    
+    background-repeat: no-repeat;   
+    height: 100vh;                  
+    margin: 0;
+      
+    }
+
+    .vending-machine {
+      width: 500px;
+      margin: 50px auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+      color: #000;
+    }
+
+    .btn-group > .btn {
+      width: auto;
+    }
+
+    .card-img-top {
+      margin-top: 10px;
+    }
+  </style>
+
+
+</head>
+<body class="bg-image">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Spin to Win!</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="prize1.html">Prize 1</a></li>
+      <li><a href="prize2.html">Prize 2</a></li>
+      <li><a href="prize3.html">Prize 3</a></li>
+      <li>
+  <button type="button" class="btn btn-info navbar-btn" data-toggle="collapse" data-target="#demo">
+    Simple collapsible
+  </button>
+</li>
+ </ul>
+     <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search for Winnner" name="search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</nav>
+
+
+ <div id="demo" class="collapse in">
+   <h2 class="bg-success">"Sign in today and unlock your chance to win amazing prizes! Every account entered increases your odds of winning. Don't miss out—join now and be part of the excitement!"</h2>
+
+ </div>
+
+  
+<div class="container">
+  <h2 style="color: white;">Fill up Now!!!</h2>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="Full Name" style="color: white;">Full Name:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="Name" placeholder="Enter Name" name="Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="Email" style="color: white;">Email:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="Email" placeholder="Enter Email" name="Email">
+      </div>
+    </div>
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="Contanct" style="color: white;">Contact No.:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="Contanct" placeholder="Enter contact number" name="Contanct">
+      </div>
+    </div>	 
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="AddressAddress" style="color: white;">Address:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="AddressAddress" placeholder="Enter address" name="Address">
+      </div>
+    </div>
+        <div class="form-group">
+     <label class="control-label col-sm-2" for="Birth" style="color: white;">Date of Birth:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="Birth" placeholder="Enter date of birth" name="Birth">
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label style="color: white;">
+    <input type="checkbox" name="remember">Remember me
+</label>
+
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <a href="submit.html" class="btn btn-success"> Submit </a>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
